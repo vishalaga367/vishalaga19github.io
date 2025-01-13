@@ -1,4 +1,41 @@
+/* Body Styling */
 body {
-  background: url('background.jpg') no-repeat center center fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://i.pinimg.com/originals/0e/39/c2/0e39c256714a4b7c0299323a82701647.jpg') no-repeat center center fixed;
   background-size: cover;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: rgba(30, 144, 255, 0.8);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* About Section Styling */
+.about {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Contact Section Styling */
+.contact {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: rgba(30, 144, 255, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
