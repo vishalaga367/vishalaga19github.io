@@ -1,41 +1,29 @@
-/* Body Styling */
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background: url('https://i.pinimg.com/originals/0e/39/c2/0e39c256714a4b7c0299323a82701647.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #333;
+  box-sizing: border-box;
 }
 
-/* Header Styling */
-header {
-  background-color: rgba(30, 144, 255, 0.8);
-  color: white;
-  padding: 20px;
-  text-align: center;
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
-/* About Section Styling */
-.about {
-  background-color: rgba(255, 255, 255, 0.8);
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-/* Contact Section Styling */
-.contact {
-  background-color: rgba(255, 255, 255, 0.8);
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-/* Footer Styling */
-footer {
-  background-color: rgba(30, 144, 255, 0.8);
-  color: white;
-  text-align: center;
-  padding: 10px;
+.full-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
